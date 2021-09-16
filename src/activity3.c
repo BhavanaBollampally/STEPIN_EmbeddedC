@@ -3,7 +3,6 @@
 #include "activity3.h"
 #include "activity2.h"
 #include "activity1.h"
-#include "activity4.h"
 
 void InitPwm(){
     TCCR1A |= (1<<COM1A1) | (1<<WGM10) | (1<<WGM11); // timer1 for PWM
