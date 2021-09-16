@@ -19,7 +19,7 @@ char activity3_loop (uint16_t var){
         _delay_ms(200);
         UartWrite(temp_value);
     }
-    else if ((var>=210) && (var<=509)){
+    else if (var<=509){
         OCR1A = 410; // 40% duty cycle
         temp_value = 25;
         _delay_ms(200);
