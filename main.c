@@ -10,4 +10,3 @@ int main(){
     activity_3();
     return 0;
 }
-© 2021 GitHub, Inc.
